@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Dancing+Script:wght@700&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <div class="title ">
+                    <em>
+                        <h1>Flipcart</h1>
+                        <p>Explore <span>Plus <i class="fa-regular fa-star"></i> </span> </p>
+                    </em>
+                </div>
+
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <form class="d-flex searchBar"  role="search">
+
+                <input class="form-control me-2"  id="searchBar"  type="text" autocomplete="off" name="searchBar" placeholder="Search for products,Brands & More..." aria-label="Search">
+                <button class="btn btn-outline-success" id="btn" >Search</button>
+                
+            </form>
+
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item loginBtn_container ">
+                        <a class="nav-link " aria-current="page" href="#">Login</a>
+                        <div class="login_menu">
+                            <div class="login_menu_list">
+                                <div class="login_menu_top">
+                                    <p>New Customer?</p>
+                                    <a href="#">Sign Up</a>
+                                </div>
+                                <div class="menu_nav_link">
+                                    <a
+                                        href="https://www.flipkart.com/account/login?ret=%2Faccount%2F%3Frd%3D0%26link%3Dhome_account">
+                                        <i class="fa-solid fa-circle-user menu_nav_icon"></i>
+                                        <p>My Profile</p>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-solid fa-star menu_nav_icon"></i>
+                                        <p>Flipkart plus zone</p>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-sharp fa-solid fa-box menu_nav_icon"></i>
+                                        <p>Order</p>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart menu_nav_icon"></i>
+                                        <p>Wishlist</p>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-sharp fa-thin fa-treasure-chest menu_nav_icon"></i>
+                                        <p>Rewards</p>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-sharp fa-solid fa-gift menu_nav_icon"></i>
+                                        <p>Gift Cards</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"
+                            href="https://seller.flipkart.com/sell-online/?utm_source=fkwebsite&utm_medium=websitedirect">
+                            Become a Seller</a>
+                    </li>
+                    <li class="nav-item more_link ">
+                        <a class="nav-link " href="#">
+                            More <i class="fa-solid fa-angle-down icon_more"></i>
+                            <div class="more_menu">
+                                <div class="more_menu_list">
+
+                                    <a href="https://www.flipkart.com/communication-preferences/push?t=all">
+                                       <i class="fa-regular fa-bell menu_nav_icon"></i>
+                                        <p>Notification Preferences</p>
+                                    </a>
+                                    <a href="https://www.flipkart.com/helpcentre">
+                                        <i class="fa-sharp fa-solid fa-headphones"></i>
+                                        <p>24 X 7 Customer Care</p>
+                                    </a>
+                                    <a
+                                        href="https://advertising.flipkart.com/login?returl=/?otracker=ch_vn_advertise_header">
+                                        <i class="fa-solid fa-arrow-trend-up menu_nav_icon "></i>
+                                        <p>Advertise</p>
+                                    </a>
+                                    <a href="https://www.flipkart.com/mobile-apps?otracker=ch_vn_mobile_apps">
+                                        <i class="fa-sharp fa-solid fa-circle-down"></i>
+                                        <p>Download App</p>
+                                    </a>
+
+
+                                </div>
+                            </div>
+                        </a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link "
+                            href="https://www.flipkart.com/viewcart?exploreMode=true&preference=FLIPKART">
+                            <div class="card_link">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <p>Cart</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- header -->
+    <div class="container-2">
+        <div class="item1">
+            <img src="https://img.freepik.com/free-vector/special-offer-modern-sale-banner-template_1017-20667.jpg?size=626&ext=jpg"
+                width="100" height="100">
+            <p>  Top Offers </p>
+        </div>
+        <div class="item1">
+            <img src="https://blog.movical.net/wp-content/uploads/2014/11/tablet-y-smartphone.jpg" width="100"
+                height="100">
+            <p>Mobiles & Tablets</p>
+        </div>
+        <div class="item1">
+            <img src="https://pluspng.com/img-png/png-electronics-electronics-489.png" width="100" height="100">
+            <p>Electronics</p>
+        </div>
+        <div class="item1">
+            <img src="https://www.yourhome.gov.au/sites/default/files/p.196_tv_appliances%25201_fmt.png" width="100"
+                height="100">
+            <p>Tv's & Appliances</p>
+        </div>
+        <div class="item1">
+            <img src="https://wallpapercave.com/wp/wp6326202.jpg" width="100" height="100">
+            <p>Fashion</p>
+        </div>
+        <div class="item1">
+            <img src="https://png.pngtree.com/back_origin_pic/03/55/28/348ae6d58d9e64f6efbe63fe167eb1f7.jpg" width="100"
+                height="100">
+            <p>Beauty</p>
+        </div>
+        <div class="item1">
+            <img src="https://www.hallstromhome.com/wp-content/uploads/2017/07/seven-farmhouse-kitchen-designs6.jpg"
+                width="100" height="100">
+            <p>Home & kitchen</p>
+        </div>
+        <div class="item1">
+            <img src="https://4.bp.blogspot.com/-Z6Z2qoFvpMw/UMIaBVxZgdI/AAAAAAAAbKI/E9-ms_s9CCE/s1600/Beautiful+modern+sofa+furniture+designs.+(2).jpg"
+                width="100" height="100">
+            <p>Furniture</p>
+        </div>
+        <div class="item1">
+            <img src="https://data1.ibtimes.co.in/en/full/631941/air-india.jpg" width="100" height="100">
+            <p>Flights</p>
+        </div>
+        <div class="item1">
+            <img src="https://www.dealsshutter.com/uploads/categories/groceryjpg-1565787489.jpg" width="100"
+                height="100">
+            <p>Grocery</p>
+        </div>
+        <div class="item1">
+            <img src="    https://images.pexels.com/photos/139398/thermometer-headache-pain-pills-139398.jpeg            "
+                width="100" height="100">
+            <p>Medicine</p>
+        </div>
+        <div class="item1">
+            <img src="https://i5.walmartimages.com/asr/21e3535e-6ddf-4721-94ac-8220d8e75be5.4e25714d7a7ae7fa4f164787681ebebd.jpeg"
+                width="100" height="100">
+            <p>Luggage</p>
+        </div>
+    </div>
+   
+    <!-- product -->
+    <section id="section">
+
+        <div class="container-3">
+            <div>
+                <h3> Best Mobile </h3>
+
+            </div>
+            <div>
+                <button><a
+                        href="https://www.flipkart.com/offers-list/best-mobile?screen=dynamic&pk=themeViews%3DBBD23-Mob-best-deals-DT-OMU%3AApp-OMU~widgetType%3DdealCard~contentType%3Dneo">View
+                        all</a> </button>
+            </div>
+        </div>
+       <div id="root"></div>
+       
+        </div>
+
+
+
+    </section>
+
+    <!-- featured product -->
+    <section>
+        <div class="container-5">
+            <div class="items">
+                <div class="display-item">
+                    <h5>iphone 14 <br>From Rs.56,999* </h5>
+                    <p>Upgrade to Newer, Better iphone<br> Get better pictures in any light</p>
+                </div>
+                <div>
+                    <img src="https://media.ldlc.com/ld/products/00/04/65/15/LD0004651580_2.jpg">
+                </div>
+            </div>
+            <div class="items">
+                <div class="display-item">
+                    <h5>Best Deals on Inverter <br>ACs From Rs. 24,999 </h5>
+                    <p>Up to Rs. 7,000 Off on Exchange</p>
+                </div>
+                <div>
+                    <img src="http://www.pngall.com/wp-content/uploads/2016/04/AC-Transparent.png">
+                </div>
+            </div>
+            <div class="items">
+                <div class="display-item">
+                    <h5>Saving on Laptops! <br> From Rs. 8,990 </h5>
+                    <p>ASUS, HP, Lenovo & More <br> No Cost EMI Up to 12 Months </p>
+                </div>
+                <div>
+                    <img
+                        src="https://www.bhphotovideo.com/images/images2500x2500/ASUS_K72JR_C1_K72Jr_C1_17_3_Notebook_Computer_749366.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <footer>
+        <div class="footer">
+            <div>
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://twitter.com/?lang=en-in"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.google.com/"><i class="fa-brands fa-google-plus"></i></a>
+                <a href="https://play.google.com/store/apps/details?id=com.flipkart.android"><i
+                        class="fa-brands fa-google-play"></i></a>
+            </div>
+            <p>Copyright @2023 designed by Shivani</p>
+        </div>
+    </footer>
+    <script src="index.js" >
+
+
+
+    </script>
+</body>
+
+</html>
